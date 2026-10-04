@@ -74,6 +74,3 @@ if __name__ == '__main__':
     print(df.head())
     print(df.tail())
     df.to_csv('cleaned_added_sales.csv', index=False)
-
-
-
