@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 # Построить круговую диаграмму распределения продаж по категориям товаров
 # Добавить процентные значения
 
+
 def plt_round_diagram(data: dict) -> None:
     fig, ax = plt.subplots()
     ax.pie(data.values(), labels=data.keys(), autopct='%1.2f%%', startangle=90)
