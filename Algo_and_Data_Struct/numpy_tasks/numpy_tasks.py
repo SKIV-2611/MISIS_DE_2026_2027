@@ -158,7 +158,7 @@ def make_array_frozen(task_num: int):
     except ValueError as e:
         print(f'Attempt to modify array: {e}')
 
-    print(f'Array after modifying attempt: {a=}')
+    print(f'Array after modification attempt: {a=}')
 
 
 if __name__ == '__main__':
